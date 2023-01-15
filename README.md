@@ -42,7 +42,7 @@ Copy the `.env.sample` file and rename the copy to `.env`
 Then update the newly renamed `.env` file with your IPFS URL, Hedera network type, Mirror Node version, and HashPack wallet metadata:
 
 ```
-APP_NAME=Mintbar
+APP_NAME=Openbar
 
 HEDERA_NETWORK=testnet
 HEDERA_MIRROR_NODE_API_VERSION=v1

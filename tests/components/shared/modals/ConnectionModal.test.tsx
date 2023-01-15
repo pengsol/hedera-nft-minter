@@ -22,14 +22,14 @@
 import { describe, it } from '@jest/globals';
 import { render } from '@testing-library/react';
 import React from 'react';
-import ConnectionModal from '@components/shared/modals/ConnectionModal';
+import ConnectToWalletButton from '@components/shared/modals/ConnectionToWalletModal';
 import ModalProvider from '@utils/context/ModalContext';
 
 describe('Connection modal', () => {
   it('render', () => {
     render(
       <ModalProvider>
-        <ConnectionModal />
+        <ConnectToWalletButton />
       </ModalProvider>
     );
   });
